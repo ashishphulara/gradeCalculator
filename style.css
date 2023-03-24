@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3%;
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 54vh;
+    
+    border: 2px solid black;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 54vh;
+    margin-left: 46%;
+    margin-top: -27.6%;
+    border: 2px solid black;
+}
+.grade-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+}
+
+#inputs{
+    width: 50%;
+    align-self: center;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+#labels{
+    margin-left: 15%;
+   margin-top: 2%;
+}
+
+
+.Calculate-btn{
+    margin-top: 5%;
+    width: 50%;
+    align-self: center;
+    background-color: rgb(37, 172, 129);
+    color: aliceblue;
+    transition: all 0.3s ease-in out;
+}
+
+.Calculate-btn:hover{
+    background-color: rgb(16, 86, 63);
+}
+
+.total-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-size: 25px;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+}
+
+
+.average-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-size: 25px;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    color: aliceblue;
+    background-color: black;
+}
+
+
+.grades-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-size: 25px;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+}
+.para_1{
+    position: relative;
+    top: 12%;
+}
+
+.para_2{
+    position: relative;
+    top: 25%;
+}
+
+.para_3{
+    position: relative;
+    top: 34%;
+}
